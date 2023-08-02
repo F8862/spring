@@ -1,0 +1,13 @@
+package com.onlyjavatech.durgesh;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+	
+	public String  firsthandler(){
+		return "Just for testing";
+		
+	}
+
+}
